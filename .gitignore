@@ -15,3 +15,10 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Accumulator test harness — large regenerable outputs
+# (CSVs, PNGs, and summary.json are kept; events.json / results.json / sweep/
+# are regenerable via analysis/accumulator_test/run_all.sh)
+analysis/accumulator_test/runs/**/events.json
+analysis/accumulator_test/runs/**/results.json
+analysis/accumulator_test/runs/sweep/
